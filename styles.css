@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(82, 2, 100);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: silver;
+}
+
+.tile{
+    width: 100%;
+    background-color: rgb(159, 33, 123);
+    margin: 7px;
+    border-radius: 17px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.tile:hover{
+    transition: cubic-bezier(0.07, 1.41, 0.8, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.image-container{
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden; 
+}
+
+.image-container img{
+    height: 100%;
+} 
+.tile-share-button{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: silver;
+}
+
+.icon{
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
